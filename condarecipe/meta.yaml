@@ -1,0 +1,33 @@
+package:
+  name: pyculib
+  version: {{ GIT_DESCRIBE_TAG }}
+
+source:
+  path: ..
+
+build:
+  number: {{ GIT_DESCRIBE_NUMBER|int }}
+
+requirements:
+  build:
+    - python
+    - numpy x.x
+    - numba
+    - cffi
+  run:
+    - python
+    - numpy x.x
+    - numba
+    - cudatoolkit 7.5
+    - libgfortran     [linux64]
+    - pyculib_sorting 1.0.0
+    - cffi
+
+test:
+  requires:
+    - pytest
+    - scipy
+  imports:
+    - pyculib
+  commands:
+    - python -m unittest -v pyculib
