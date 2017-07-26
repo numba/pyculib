@@ -12,7 +12,7 @@ Pyculib provides Python bindings to the following CUDA libraries:
 These bindings are direct ports of those available in [Anaconda
 Accelerate](https://docs.continuum.io/accelerate/cuda-libs).
 
-Documentation is located [here](LINK_TO_DOCS)
+Documentation is located [here](http://pyculib.readthedocs.io/en/latest/)
 
 ## Installing
 
@@ -53,7 +53,7 @@ and the installation can be tested with:
 
 ## Documentation
 
-Documentation is located [here](LINK_TO_DOCS).
+Documentation is located [here](http://pyculib.readthedocs.io/en/latest/).
 
 ### Building Documentation
 
