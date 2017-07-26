@@ -30,10 +30,14 @@ packages = [
 cmdclass = versioneer.get_cmdclass()
 cmdclass['build_doc'] = build_doc
 
+with open('README.rst', 'r') as f:
+    long_description = f.read()
+
 if __name__ == '__main__':
     setup(
         name='pyculib',
         description='Pyculib - python bindings for NVIDIA CUDA libraries',
+        long_description=long_description,
         author='Continuum Analytics, Inc.',
         author_email='support@continuum.io',
         url='http://continuum.io',

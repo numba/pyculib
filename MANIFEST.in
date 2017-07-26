@@ -1,2 +1,3 @@
 include versioneer.py
 include pyculib/_version.py
+graft docs
