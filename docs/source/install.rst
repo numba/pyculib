@@ -3,14 +3,13 @@ Requirements
 
 * 64-bit operating system--Windows, macOS or Linux
 * Supported Python and Numpy combinations:
-   * Python XXX with Numpy XXX TODO: FILL IN
-* Numba 0.33
+   * Python 2.7, 3.4-3.5 with Numpy 1.10-1.13
+* Numba 0.33 or later
 
 CUDA feature requirements
 -------------------------
 
-* NVidia driver version XXX or later TODO: FILL IN
-* CUDA toolkit 7.5
+* CUDA toolkit 7.5 and supported NVIDIA driver
 * At least one CUDA GPU with compute capability 2.0 or above
 
 

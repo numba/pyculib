@@ -10,7 +10,7 @@ provided in the open-source Numba JIT compiler.
 System requirements:
 
 * Python 2.7, 3.4+
-* Numpy XXX TODO: FIX
+* Numpy 1.10 or later
 * NVIDIA CUDA-enabled GPU with compute
   capability 2.0 or above. CUDA Toolkit 7.5 and driver version 349.00 or above
   ([https://developer.nvidia.com/cuda-toolkit](https://developer.nvidia.com/cuda-toolkit))
