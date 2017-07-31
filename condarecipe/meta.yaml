@@ -22,6 +22,7 @@ requirements:
     - libgfortran     [linux64]
     - pyculib_sorting 1.0.0
     - cffi
+    - scipy
 
 test:
   requires:
