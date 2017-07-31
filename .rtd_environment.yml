@@ -1,0 +1,11 @@
+name: pyculib
+channels:
+  - numba
+dependencies:
+  - python
+  - numpy
+  - numba
+  - cudatoolkit=7.5
+  - pyculib_sorting=1.0.0
+  - cffi
+  - scipy
