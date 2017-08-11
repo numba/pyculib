@@ -7,28 +7,30 @@ source:
 
 build:
   number: {{ GIT_DESCRIBE_NUMBER|int }}
+  script_env:
+    - LD_LIBRARY_PATH # pass cuda libs through for docker builds
 
 requirements:
   build:
     - python
     - numpy x.x
     - numba
-    - cffi
   run:
     - python
     - numpy x.x
     - numba
-    - cudatoolkit 7.5
+    - cudatoolkit
     - libgfortran     [linux64]
-    - pyculib_sorting 1.0.0
+    - pyculib_sorting 1.0.*
     - cffi
     - scipy
 
 test:
   requires:
-    - pytest
     - scipy
+    - cudatoolkit {{ environ.get('CUDATOOLKIT_VERSION', 7.5) }}
   imports:
     - pyculib
   commands:
+    - numba -s
     - python -m unittest -v pyculib
