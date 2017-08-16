@@ -2,6 +2,12 @@
 Release notes
 =============
 
+Version 1.0.2
+=============
+
+Packaging fixes, remove fixed version of CUDA toolkit. No functional change.
+
+
 Version 1.0.1
 =============
 
