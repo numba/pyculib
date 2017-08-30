@@ -21,7 +21,7 @@ Installing
 ----------
 
 The easiest way to install Pyculib and get updates is by using the
-`Anaconda Distribution <https://www.continuum.io/downloads>`__
+`Anaconda Distribution <https://www.anaconda.com/download>`__
 
 ::
 

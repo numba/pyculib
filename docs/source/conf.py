@@ -53,8 +53,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Pyculib'
-copyright = '2017, Continuum Analytics, Inc.'
-author = 'Continuum Analytics, Inc.'
+copyright = '2017, Anaconda, Inc.'
+author = 'Anaconda, Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -229,7 +229,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'Pyculib.tex', 'Pyculib Documentation',
-   'Continuum Analytics, Inc.', 'manual'),
+   'Anaconda, Inc.', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

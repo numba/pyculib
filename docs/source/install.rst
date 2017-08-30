@@ -18,12 +18,12 @@ Installing Pyculib
 =====================
 
 If you already have the `Anaconda free
-Python distribution <http://continuum.io/downloads.html>`_, take the following steps to install Pyculib:  
+Python distribution <https://www.anaconda.com/download>`_, take the following steps to install Pyculib:  
 
 #. Run the command ``conda update conda``.
 #. Run the command ``conda install pyculib``.
 
-If you do not have Anaconda installed, see `Downloads <http://continuum.io/downloads.html>`_.
+If you do not have Anaconda installed, see `Downloads <https://www.anaconda.com/download>`_.
 
 NOTE: Pyculib can also be installed into your own non-Anaconda Python environment via pip or setuptools.
 

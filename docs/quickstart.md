@@ -19,7 +19,7 @@ System requirements:
 ### Install from Anaconda
 
 Download and install Anaconda from
-[https://www.continuum.io/downloads](https://www.continuum.io/downloads).
+[https://www.anaconda.com/download](https://www.anaconda.com/download).
 
 In terminal:
 
