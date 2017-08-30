@@ -34,3 +34,9 @@ test:
   commands:
     - numba -s
     - python -m unittest -v pyculib
+
+about:
+    home: https://github.com/numba/pyculib
+    license: BSD
+    license_file: LICENSE
+    summary: Python bindings for CUDA libraries.
