@@ -44,5 +44,5 @@ fft(x, xf)
 
 ## Where do I learn more?
 
-* Full documentation: (Insert URL)
+* Full documentation: https://pyculib.readthedocs.io/en/latest/
 * CUDA-accelerated functions: https://pyculib.readthedocs.io/en/latest/cuda-libs.html
