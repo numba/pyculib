@@ -1,3 +1,8 @@
+**NOTE**: This project is no longer receiving updates, as we think that CuPy is provides a much more complete interface to standard GPU algorithms.  CuPy arrays also work with Numba-compiled GPU kernels now.  We encourage you to take a look at CuPy:
+
+https://cupy.chainer.org/
+
+
 Pyculib
 =======
 
