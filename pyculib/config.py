@@ -17,7 +17,7 @@ class Environment:
             return default() if callable(default) else default
         try:
             return ctor(value)
-        except Exception:
+        except ValueError:
             warnings.warn("environ %s defined but failed to parse '%s'" %
                           (name, res), RuntimeWarning)
             return default
